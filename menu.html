@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", charset="utf-8">
+    <meta http-equiv="cleartype" content="on"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="x-rim-auto-match" content="none" forua="true">
+    <!-- saved from url=(0014)about:internet -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>BAKERY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css" type="text/css">        
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloaderimage">
+        </div>
+    </div>
+    <div class="first-part">
+        <header>
+            <nav>
+                <a  class="logo" href="index.html" title="main page">Gustoso</a> 
+                <ul class="main-nav">          
+                    <li><a href="aboutus.html" title="about us">About us</a></li>
+                    <li><a href="menu.html" title="menu">Menu</a></li>
+                    <li><a href="Gallery.html" title="gallery">Gallery</a></li>
+                    <li><a href="Contact.html" title="contact">Contact</a></li>
+                </ul>
+                <ul class="icons">        
+                    <li><a href="https://twitter.com" target="_blank"><img class="twitter" src="images/logo_-_Twitter.png" alt="twitter"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img class="facebook" src="images/logo_-_Facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img class="instagram" src="images/logo_-_Instagram.png" alt="instagram"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="menu-pastry">Our menu</h1>
+        <div class="bread-icon">
+            <img src="images/bread.png" alt="bread">
+        </div>
+    </div>
+    <section class="menu-bread">
+        <div class="text-bread">
+            <div class="breads">
+                <h1>breads</h1>
+                <p>$15 Pain Blanc (white)</p>
+        		<p>$13 Pain Complet (whole wheat)</p>
+        		<p>$9 Pain Biologique (organic)</p>
+        		<p>$11 Pain au Levain  (sourdough)</p>
+        		<p>$15 Pan Noir (rye)</p>
+        		<p>$12 Pain Baguette</p>
+        		<p>$9 Pain Baguette a l'Ail (garlic)</p>
+        		<p>$5 Pain Brioché (eggs)</p>
+        		<p>$10 Pain de Mais (corn)</p>
+        		<p>$13 Pain Perdu  (french toast)</p>
+            </div>
+            <div class="pastries">
+                <h1>pastries</h1>
+                <p>$4 Croissant</p>
+    			<p>$5 Pain au Chocolat</p>
+    			<p>$2 Madeleines</p>
+    			<p>$8 Macarón</p>
+    			<p>$4 Paris-Brest</p>
+    			<p>$8 St. Honoré</p>
+    			<p>$3 Kouign-amann</p>
+    			<p>$5 Mille-feuille</p>
+    			<p>$7 Éclair</p>
+    			<p>$6 Profiterole</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <ul class="main-nav">          
+                <li><a href="aboutus.html" title="about us">About us</a></li>
+                <li><a href="menu.html" title="menu">Menu</a></li>
+            </ul>
+            <a  class="logo" href="index.html" title="main page">Gustoso</a>
+            <ul class="main-nav">
+                <li><a href="Gallery.html" title="gallery">Gallery</a></li>
+                <li><a href="Contact.html" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+    </script>   
+</body>
+</html>

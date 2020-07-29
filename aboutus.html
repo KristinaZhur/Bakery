@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <meta http-equiv="cleartype" content="on"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="x-rim-auto-match" content="none" forua="true">
+    <!-- saved from url=(0014)about:internet -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>BAKERY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css" type="text/css">      
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloaderimage">
+        </div>
+    </div> 
+    <div class="mainphoto">
+        <header>
+            <nav>
+                <a  class="logo" href="index.html" title="main page">Gustoso</a> 
+                <ul class="main-nav">          
+                    <li><a href="aboutus.html" title="about us">About us</a></li>
+                    <li><a href="menu.html" title="menu">Menu</a></li>
+                    <li><a href="Gallery.html" title="gallery">Gallery</a></li>
+                    <li><a href="Contact.html" title="contact">Contact</a></li>
+                </ul>
+                <ul class="icons">        
+                    <li><a href="https://twitter.com" target="_blank"><img class="twitter" src="images/logo_-_Twitter.png" alt="twitter"></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><img class="facebook" src="images/logo_-_Facebook.png" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img class="instagram" src="images/logo_-_Instagram.png" alt="instagram"></a></li>
+                </ul>
+            </nav>
+        </header>       
+        <section class="aboutus">
+            <h1 class="story">Our story</h1>
+            <h3 class="description">This is a fourth generation, family-owned bakery and pastry business.</h3>           	
+        </section>
+    </div>
+        <section class="founders">
+            <div class="textcenter">
+                <h3>get in touch</h3>
+                <h1>A word about us</h1>
+            </div>
+            <div class="persons">  
+                <img class="girl" src="images/founder_01.jpg" alt="women">
+                    <div class="founder-w-m">
+                        <h3>Angelica Haysк</h3>
+                        <h4>founder</h4>
+                        <p>My story probably began a little something like yours. I began to study how foods, when paired with an  understanding of one’s own body.</p>
+                    </div>
+                <img class="menright" src="images/founder_02.jpg" alt="men">
+                    <div class="founder-w-m">
+                        <h3>Frederic Burn</h3>
+                        <h4>co founder</h4>
+                        <p>We take the time to sprout the grains in most all of our products to release nutrients that would otherwise remain dormant.</p>
+                    </div>
+            </div>
+        </section>
+        <section class="mainfounder">
+            <div class="textfounder">
+                <h1>About me</h1>
+                <h3>I BAKE WHAT I LOVE</h3>
+                <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                <input type='button' value='welcome' onclick='alert("Приветствую Вас!")'>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <ul class="main-nav">          
+                    <li><a href="aboutus.html" title="about us">About us</a></li>
+                    <li><a href="menu.html" title="menu">Menu</a></li>
+                </ul>
+                <a  class="logo" href="index.html" title="main page">Gustoso</a>
+                <ul class="main-nav">
+                    <li><a href="Gallery.html" title="gallery">Gallery</a></li>
+                    <li><a href="Contact.html" title="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
+        <script>
+            window.onload = function () {
+                document.body.classList.add('loaded_hiding');
+                window.setTimeout(function () {
+                    document.body.classList.add('loaded');
+                    document.body.classList.remove('loaded_hiding');
+                }, 500);
+            }
+        </script>   
+</body>
+</html>
